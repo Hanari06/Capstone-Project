@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Mansalva&family=Raleway+Dots&family=Rubik+Puddles&family=Schoolbell&display=swap');
+*{
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: black;
+    font-size: 30px;
+}
+
+body 
+{
+	background-image: url('own assets/Website Version/Background\ opacity.png');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 115vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.nav-logo
+{
+    width: 20%;
+}
+
+.top-spacing
+{
+	display: grid;
+	height: 5%;
+}
+
+.spacing
+{
+	display: grid;
+	height: 13%;
+}
+
+h2
+{
+    border: 3px solid purple;
+    background-color: rgb(115, 232, 255);
+}
+
+.patinig-container
+{
+    max-width: 100%;
+    flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+    gap: 10px;
+}
+
+.katinig-container
+{
+    max-width: 100%;
+    flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+    gap: 10px;
+}
+
+.color-trace-container
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-size
+{
+    width: 80%;
+}
+
+.trace-img-size
+{
+    width: 100%;
+}
+
+.tracereset-img-size
+{
+    width: 35%;
+}
+
+.btn-transparent
+{
+    background-color: transparent;
+    border: none;
+}
+
+.btn-transparent:hover
+{
+    width: 19%;
+}
+
+.btn-trace-transparent
+{
+    background-color: transparent;
+    border: none;
+}
+
+.btn-trace-transparent:hover
+{
+    width: 32%;
+}
+
+.btn-red-trace
+{
+    background-color: red;
+    width: 80px;
+    height: 50px;
+}
+
+.btn-red-trace:hover
+{
+    width: 83px;
+    height: 53px;
+}
+
+.btn-orange-trace
+{
+    background-color: orange;
+    width: 80px;
+    height: 50px;
+}
+
+.btn-orange-trace:hover
+{
+    width: 83px;
+    height: 53px;
+}
+
+.btn-yellow-trace
+{
+    background-color: yellow;
+    width: 80px;
+    height: 50px;
+}
+
+.btn-yellow-trace:hover
+{
+    width: 83px;
+    height: 53px;
+}
+
+.btn-green-trace
+{
+    background-color: green;
+    width: 80px;
+    height: 50px;
+}
+
+.btn-green-trace:hover
+{
+    width: 83px;
+    height: 53px;
+}
+
+.btn-blue-trace
+{
+    background-color: blue;
+    width: 80px;
+    height: 50px;
+}
+
+.btn-blue-trace:hover
+{
+    width: 83px;
+    height: 53px;
+}
+
+.btn-purple-trace
+{
+    background-color: purple;
+    width: 80px;
+    height: 50px;
+}
+
+.btn-purple-trace:hover
+{
+    width: 83px;
+    height: 53px;
+}
+

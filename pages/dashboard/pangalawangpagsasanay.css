@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Mansalva&family=Raleway+Dots&family=Rubik+Puddles&family=Schoolbell&display=swap');
+  
+body {
+	background-image: url('own assets/Website Version/Background\ opacity.png');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 115vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.nav-logo
+{
+    width: 20%;
+}
+
+h1
+{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 20px;
+    background-color: beige;
+}
+
+h2
+{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 20px;
+}
+
+.additional-menu-sizes
+{
+    width: 30%;
+}
+
+.top-spacing
+{
+	display: grid;
+	height: 5%;
+}
+
+.spacing
+{
+    display: grid;
+	height: 3%;
+}
+
+.images-container 
+{
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.logosize
+{
+    width: 50%;
+}
+
+.q-image-size
+{
+	width: 68%;
+}
+
+.sylable-image-sizes
+{
+	width: 80%;
+}
+
+.left {
+	max-width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.right 
+{
+	max-width: 50%;
+    flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+    gap: 10px;
+}
+
+.btn-transparent
+{
+    background-color: transparent;
+    border: none;
+}
+
+.btn-transparent:hover
+{
+    width: 40%;
+}
+
+
+.btn-transparent_nav:hover
+{
+    width: 18%;
+}
+
+#btn-red-choices
+{
+    background-color: rgb(255, 132, 132);
+    width: 300px;
+    height: 150px;
+	font-size: 100px;
+}
+
+#btn-red-choices:hover
+{
+    width: 305px;
+    height: 155px;
+}
+
+#btn-orange-choices
+{
+    background-color: rgb(255, 209, 124);
+    width: 300px;
+    height: 150px;
+	font-size: 100px;
+}
+
+#btn-orange-choices:hover
+{
+    width: 305px;
+    height: 155px;
+}
+
+#btn-yellow-choices
+{
+    background-color: rgb(255, 255, 120);
+    width: 300px;
+    height: 150px;
+	font-size: 100px;
+}
+
+#btn-yellow-choices:hover
+{
+    width: 305px;
+    height: 155px;
+}
+
+#btn-green-choices
+{
+    background-color: rgb(125, 255, 125);
+    width: 300px;
+    height: 150px;
+	font-size: 100px;
+}
+
+#btn-green-choices:hover
+{ 	
+    width: 305px;
+    height: 155px;
+}
+
+#btn-blue-choices
+{
+    background-color: rgb(129, 129, 255);
+    width: 300px;
+    height: 150px;
+	font-size: 100px;
+}
+
+#btn-blue-choices:hover
+{
+    width: 305px;
+    height: 155px;
+}
+
+#btn-purple-choices
+{
+    background-color: rgb(255, 128, 255);
+    width: 300px;
+    height: 150px;
+	font-size: 100px;
+}
+
+#btn-purple-choices:hover
+{
+    width: 305px;
+    height: 155px;
+}
+
+#next-icon
+{
+    background-color: transparent;
+    border: none;
+}
+
+#repeat-icon
+{
+    background-color: transparent;
+    border: none;
+}
+
+

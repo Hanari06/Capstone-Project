@@ -1,0 +1,110 @@
+body {
+	background-image: url('own assets/Website Version/Background\ opacity.png');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 115vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.nav-logo
+{
+    width: 20%;
+}
+
+.additional-menu-sizes
+{
+    width: 30%;
+}
+
+.top-spacing
+{
+	display: grid;
+	height: 5%;
+}
+
+.spacing
+{
+	display: grid;
+	height: 15%;
+}
+
+hr
+{
+	height: 5px;
+	background-color: blueviolet;
+}
+
+.images-container 
+{
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.logosize
+{
+    width: 50%;
+}
+
+.katinig-letter-image-size
+{
+	width: 130%;
+}
+
+.sylable-image-sizes
+{
+	width: 80%;
+}
+
+.left {
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.right 
+{
+	max-width: 50%;
+    flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+    gap: 10px;
+}
+
+.btn-transparent
+{
+    background-color: transparent;
+    border: none;
+}
+
+.btn-transparent:hover
+{
+    width: 40%;
+}
+
+
+.btn-transparent_nav:hover
+{
+    width: 18%;
+}
+
+.top
+{
+	background-color: rgb(224, 255, 132);
+	border: 5px solid rgb(172, 255, 47);
+    width: 98%;
+}
+
+.top :hover
+{
+    width: 100%;
+}
+
+.top ::before
+{
+	color: rgb(0, 138, 23);
+}
+

@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Mansalva&family=Raleway+Dots&family=Rubik+Puddles&family=Schoolbell&display=swap');
+*{
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: black;
+    font-size: 20px;
+}
+
+body 
+{
+	background-image: url('own assets/Website Version/Background.png');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 90vh;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.additional-menu-sizes
+{
+    width: 200%;
+}
+
+.blank-container
+{
+	display: grid;
+	height: 21%;
+}
+
+#logout-margin
+{
+	display: flex;
+	align-items: center;
+    justify-content: right;
+}
+
+.spacing-above-nav
+{
+	display: flex;
+	height: 55px;
+	width: 535px;
+}
+
+.spacing-about-nav
+{
+	display: flex;
+	width: 141px;
+}
+
+.spacing-credits-nav
+{
+	display: flex;
+	width: 52px;
+}
+
+.spacing-settings-nav
+{
+	display: flex;
+	width: 138px;
+}
+
+.modal-body
+{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+.images-container 
+{
+	margin: 0 auto;
+	display: flex;
+	width: 107%;
+	justify-content: space-around;
+}
+
+.logosize
+{
+    width: 80%;
+	justify-items: center;
+	align-content: center;
+	
+}
+
+.menu-sizes
+{
+	width: 85%;
+}
+
+.menu-patkat-sizes
+{
+	width: 80%;
+	border: 3px solid rgb(0, 157, 255);
+}
+
+.menu-pangungusap-sizes
+{
+	width: 80%;
+	border: 3px solid rgb(0, 157, 255);
+}
+
+.menupat-sizes
+{
+	width: 80%;
+	border: 3px solid rgb(0, 157, 255);
+}
+
+.menukat-sizes
+{
+	width: 80%;
+	border: 3px solid rgb(0, 157, 255);
+}
+
+.menubtnpatinig :hover
+{
+	width: 82%;
+}
+
+.menubtnkatinig :hover
+{
+	width: 82%;
+}
+
+.about-logo-img
+{
+	width: 50%;
+}
+
+#about-background
+{
+	background-image: url('own assets/Website Version/a.png');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 90vh;
+	background-repeat: no-repeat;
+    /* background-attachment: fixed; */ 
+}
+
+#credit-background
+{
+	background-image: url('own assets/Website Version/about\ back.png');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 90vh;
+	background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.about-spacing
+{
+	display: grid;
+	height: 10%;
+}
+
+.highlighted
+{
+	background-color: rgba(255, 253, 253, 0.8);
+}
+
+.left {
+	width: 80%;
+	justify-content: center;
+	align-items: center;
+}
+
+.right 
+{
+	width: 100%;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    gap: 10px;
+	
+}
+
+.right-additional-menu-sizes 
+{
+	width: 600px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.btn-transparent
+{
+    background-color: transparent;
+    border: none;
+}
+
+.btn-transparent:hover
+{
+    width: 30%;
+}
+
+.btn-transparent_nav
+{
+    background-color: transparent;
+	border: none;
+}
+
+/* #hover-about :hover
+{
+    width: 0%;
+}
+
+#hover-about
+{
+    width: 30%;
+}
+
+#hover-about
+{
+    width: 30%;
+} */

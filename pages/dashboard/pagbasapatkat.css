@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Mansalva&family=Raleway+Dots&family=Rubik+Puddles&family=Schoolbell&display=swap');
+  
+body {
+	background-image: url('own assets/Website Version/Background\ opacity.png');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 115vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.nav-logo
+{
+    width: 20%;
+}
+
+#font-style
+{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 40px;
+    background-color: beige;
+}
+
+h2
+{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 20px;
+}
+
+.aso-font-style
+{
+	font-size: 50px;
+	width: 100%;
+	height: 13%;
+	background-color: beige;
+	border: 5px solid rgb(226, 43, 195);
+}
+
+.additional-menu-sizes
+{
+    width: 30%;
+}
+
+.top-spacing
+{
+	display: grid;
+	height: 5%;
+}
+
+.spacing
+{
+    display: grid;
+	height: 3%;
+}
+
+/* .spacing-speak
+{
+    display: flex;
+	width: 0px;
+} */
+
+.images-container 
+{
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.logosize
+{
+    width: 50%;
+}
+
+.speak-image-size
+{
+	width: 75%;
+	height: 80%;
+}
+
+.sylable-image-sizes
+{
+	width: 80%;
+}
+
+.left {
+	max-width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.right 
+{
+	max-width: 50%;
+    flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+    gap: 10px;
+}
+
+.btn-transparent
+{
+    background-color: transparent;
+    border: none;
+}
+
+.btn-transparent:hover
+{
+    width: 40%;
+}
+
+
+.btn-transparent_nav:hover
+{
+    width: 18%;
+}
+
+#btn-red-choices
+{
+    background-color: rgb(255, 132, 132);
+    width: 660px;
+    height: 100px;
+	font-size: 60px;
+}
+
+#btn-red-choices:hover
+{
+    width: 665px;
+    height: 105px;
+}
+
+#btn-orange-choices
+{
+    background-color: rgb(255, 209, 124);
+    width: 660px;
+    height: 100px;
+	font-size: 60px;
+}
+
+#btn-orange-choices:hover
+{
+    width: 665px;
+    height: 105px;
+}
+
+#btn-yellow-choices
+{
+    background-color: rgb(255, 255, 120);
+    width: 660px;
+    height: 100px;
+	font-size: 60px;
+}
+
+#btn-yellow-choices:hover
+{
+    width: 665px;
+    height: 105px;
+}
+
+#btn-green-choices
+{
+    background-color: rgb(125, 255, 125);
+    width: 660px;
+    height: 100px;
+	font-size: 60px;
+}
+
+#btn-green-choices:hover
+{ 	
+    width: 665px;
+    height: 105px;
+}
+
+#btn-blue-choices
+{
+    background-color: rgb(129, 129, 255);
+    width: 660px;
+    height: 100px;
+	font-size: 60px;
+}
+
+#btn-blue-choices:hover
+{
+    width: 665px;
+    height: 105px;
+}
+
+#btn-purple-choices
+{
+    background-color: rgb(255, 128, 255);
+    width: 660px;
+    height: 100px;
+	font-size: 60px;
+}
+
+#btn-purple-choices:hover
+{
+    width: 665px;
+    height: 105px;
+}
+
+#next-icon
+{
+    background-color: transparent;
+    border: none;
+}
+
+#repeat-icon
+{
+    background-color: transparent;
+    border: none;
+}
+
+
