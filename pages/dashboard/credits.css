@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Mansalva&family=Raleway+Dots&family=Rubik+Puddles&family=Schoolbell&display=swap');
+
+*{
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: black;
+    font-size: 16px;
+}
+
+.highlighted
+{
+	background-color: rgba(255, 253, 253, 0.604);
+}
+
+body {
+	background-image: url('own assets/Website Version/Background\ opacity.png');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 115vh;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.menu-sizes
+{
+	width: 130%;
+}
+
+.credits-logo-img
+{
+	width: 50%;
+}
+
+.kc-logo
+{
+	width: 20%;
+}
+
+.tj-logo
+{
+	width: 18%;
+}
+
+.rr-logo
+{
+	width: 50%;
+}
+
+.nav-logo
+{
+    width: 20%;
+}
+
+.top-spacing
+{
+	display: grid;
+	height: 20%;
+}
+
+.credits-spacing
+{
+	display: grid;
+	height: 50px;
+}
+
+.btn-credits-alignment
+{
+	max-width: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    gap: 180px;
+}
+
+.btn-vid:hover
+{
+	width: 31%;
+}
+
+.video-container
+{
+    max-width: 80%;
+    flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+    gap: 10px;
+}
+
+.responsive-iframe
+{
+  width: 500px;
+  height: 250px;
+}
+
+.btn-transparent
+{
+    background-color: transparent;
+    border: none;
+}
+
+.btn-transparent:hover
+{
+    width: 13%;
+}
+
+.btn-transparent_nav
+{
+    background-color: transparent;
+	border: none;
+}
+#hiraya-background
+{
+	background-image: url('assets pictures/hiraya\ bg.png');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 80vh;
+	background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+#kc-background
+{
+	background-image: url('assets pictures/kc\ bg.png');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 80vh;
+	background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+#tj-background
+{
+	background-image: url('assets pictures/teacher\ janeth\ bg.png');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 80vh;
+	background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+#rr-background
+{
+	background-image: url('assets pictures/random\ rambles\ bg.png');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 80vh;
+	background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.settings-background
+{
+	background-image: url('assets pictures/clouds.png');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 30vh;
+	background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
