@@ -18,6 +18,8 @@ function getProfile() {
             userLastName =parseResponse['data']['lname'];
             userName = userFirstName + " " + userLastName;
 
+            let greetings = "<h5> Magandang Araw "+ userFirstName +"</h5>";
+            $('#greetings').html(greetings);
 
             if (parseResponse.status == 401) {
                 window.location.href = "../../index.html";
