@@ -18,7 +18,7 @@ function getProfile() {
             userLastName =parseResponse['data']['lname'];
             userName = userFirstName + " " + userLastName;
 
-            let greetings = "<h5> Magandang Araw "+ userFirstName +"</h5>";
+            let greetings = "<h4> Magandang araw "+ userFirstName +"!</h4>";
             $('#greetings').html(greetings);
 
             if (parseResponse.status == 401) {

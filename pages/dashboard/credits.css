@@ -3,7 +3,7 @@
 *{
     font-family: 'Love Ya Like A Sister', cursive;
     color: black;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .highlighted
@@ -24,6 +24,11 @@ body {
 .menu-sizes
 {
 	width: 130%;
+}
+
+.poptropica-logo
+{
+	width: 30%;
 }
 
 .credits-logo-img
@@ -65,11 +70,11 @@ body {
 
 .btn-credits-alignment
 {
-	max-width: auto;
 	display: flex;
+    flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-    gap: 180px;
+    gap: 200px;
 }
 
 .btn-vid:hover
@@ -152,7 +157,18 @@ body {
     /* background-attachment: fixed; */
 }
 
-.settings-background
+#pop-background
+{
+	background-image: url('assets pictures/poptropica\ bg.png');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 80vh;
+	background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+#settings-background
 {
 	background-image: url('assets pictures/clouds.png');
 	background-size: cover;

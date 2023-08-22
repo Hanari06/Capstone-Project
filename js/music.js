@@ -1,7 +1,7 @@
 let on_off = document.querySelector('.form-switch .form-check-input');
 let audio = document.querySelector('.musicOn audio');
 
-audio.volume = 0.8;
+audio.volume = 0.5;
 
 window.onload = init;
 function init() {

@@ -20,7 +20,7 @@ if (isset($_POST['register'])) {
             $isInserted = /*$results =*/ $connection->query($sql);
 
             if ($isInserted) {
-                $response = createResponse(200, "Successful", "Successfully Saved");
+                $response = createResponse(200, "Succesful", "Successfully Saved");
             } else {
                 $response = createResponse(300, "Error", "Error while saving user");
             }

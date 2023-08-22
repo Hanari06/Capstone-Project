@@ -21,6 +21,11 @@ body
     background-attachment: fixed;
 }
 
+#greetings
+{
+	margin-left: 120px;
+}
+
 .additional-menu-sizes
 {
     width: 200%;
@@ -42,7 +47,7 @@ body
 .spacing-above-nav
 {
 	display: flex;
-	height: 55px;
+	height: 76px;
 	width: 535px;
 }
 
@@ -55,13 +60,13 @@ body
 .spacing-credits-nav
 {
 	display: flex;
-	width: 53px;
+	width: 65px;
 }
 
 .spacing-settings-nav
 {
 	display: flex;
-	width: 148px;
+	width: 155px;
 }
 
 .modal-body
