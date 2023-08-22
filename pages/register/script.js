@@ -1,4 +1,4 @@
-function register() {
+function register(){
     let registrationRequest = {
         "fname" : $("#fname").val(),
         "lname" : $("#lname").val(),
@@ -61,12 +61,7 @@ function register() {
 
 
             
-            /**
-             * If successful yung login
-             */
-            if (parseResponse.status == 200) {
-                window.location.href = "pages/dashboard";
-            }
+           
 
         },
         "error" : function (xhr, status, error) { //error yung response
