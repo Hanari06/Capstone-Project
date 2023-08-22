@@ -1,5 +1,32 @@
-const recordBtn = document.querySelector(".record"),
-  result = document.querySelector(".result"),
+let asoBtn = document.getElementById("btn-red-choices");
+let elepanteBtn = document.getElementById("btn-orange-choices");
+let ibonBtn = document.getElementById("btn-yellow-choices");
+let okraBtn = document.getElementById("btn-green-choices");
+let ubasBtn = document.getElementById("btn-blue-choices");
+let batoBtn = document.getElementById("btn-purple-choices");
+let listenBtn = document.getElementById("listenBtn");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const recordBtn = document.getElementById("listenBtn");
+  result = document.querySelector(".results"),
   downloadBtn = document.querySelector(".download"),
   inputLanguage = document.querySelector("#language"),
   clearBtn = document.querySelector(".clear");
@@ -73,15 +100,11 @@ function speechToText() {
 }
 
 recordBtn.addEventListener("click", () => {
-  if (!recording) {
+  
     result.innerHTML = "";
     speechToText();
-
-    setTimeout(stopRecording, 2000);
     recording = true;
-  } else {
-    stopRecording();
-  }
+    setTimeout(stopRecording, 1500);
 });
 
 function stopRecording() {
@@ -113,3 +136,4 @@ clearBtn.addEventListener("click", () => {
   result.innerHTML = "";
   downloadBtn.disabled = true;
 });
+
