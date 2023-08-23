@@ -68,7 +68,7 @@
 
   <div class="top-spacing"></div>
   <center>
-    <h1 id="font-style"> Panuto: Basahin ang bawat pantig upang makabuo ng salita.</h1>
+    <h1 class="ins-font" id="font-style"> Panuto: Basahin ang bawat pantig upang makabuo ng salita.</h1>
   </center>
   <div class="spacing"></div>
 
@@ -90,10 +90,7 @@
       </section>
 
       <section class='left'>
-        <h1 class="aso-font-style">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          &nbsp;a-so</h1>
-        <div class="spacing-speak">
-
+        <h1 id="word-display" class="aso-font-style">&nbsp;a-so</h1>
           <div class="container">
             <div class="options">
               <div class="anguage" style="display:none;">
@@ -102,20 +99,23 @@
               </div>
             </div>
             <div class="line"></div>
-            <button id="listenBtn" style="height: 50px; background-color: white; border: solid black;" class="btn record">
-              <div class="icon">
-                <ion-icon name="mic-outline"></ion-icon>
-                <img src="bars.svg" alt="" />
-              </div>
-              <p>Makinig</p>
+            <button id="listenBtn" style="height: 150px; width: 100%; background-color: rgb(203, 249, 255); border: solid black; font-family: 'Love Ya Like A Sister', cursive;
+            font-size: 50px;" class="btn record my-5 align-items-center">
+              <p>Makinig <br> <i class="fa-solid fa-microphone-lines fa-shake fa-1x"></i></p>
             </button>
-            <div class="card">
-              <div class="card-body">
-                <h1 class="results">puno</h1>
+
+            <div class="cloud-img">
+              <img class="clouds"src="own assets/Website Version/clouds border.png" alt="#">
+              <div class="card-result">
+                <div class="card-body">
+                  <h1 class="results text-center h-100"></h1>
+                </div>
               </div>
             </div>
             
+            
           </div>
+        <div class="spacing-speak">
 
         </div>
         <!-- <iframe style="border: none; width: 100%; height: auto;"src="http://localhost/abakada/speech-to-text" frameborder="0"></iframe> -->

@@ -22,16 +22,53 @@ body {
 	background-attachment: fixed;
 }
 
+
 .nav-logo
 {
     width: 20%;
 }
 
-#font-style
+.ins-font
+{
+    background-color: beige;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 53px;
+}
+
+#btn-red-choices
 {
     font-family: 'Love Ya Like A Sister', cursive;
-    font-size: 40px;
-    background-color: beige;
+    font-size: 10px;
+}
+
+#btn-orange-choices
+{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 10px;
+}
+
+#btn-yellow-choices
+{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 10px;
+}
+
+#btn-green-choices
+{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 10px;
+}
+
+#btn-blue-choices
+{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 10px;
+}
+
+#btn-purple-choices
+{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 10px;
 }
 
 #exampleModalLabel
@@ -61,10 +98,10 @@ h2
 .aso-font-style
 {
 	font-size: 50px;
-	width: 100%;
+	width: 600px;
 	height: 13%;
 	background-color: beige;
-	border: 5px solid rgb(226, 43, 195);
+	border: 5px solid rgb(255, 159, 197);
 }
 
 .additional-menu-sizes
@@ -84,6 +121,9 @@ h2
 	height: 3%;
 }
 
+.container{
+    width: 1000px;
+}
 /* .spacing-speak
 {
     display: flex;
@@ -95,6 +135,37 @@ h2
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-around;
+}
+
+.clouds
+{
+    width: 700px;
+    height: 250px;
+}
+
+.cloud-img
+{
+    width: 100%;
+    position: relative;
+
+}
+
+.clouds
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -5;
+}
+
+.card-result
+{
+    min-height: 30svh;
+}
+
+.card-body
+{
+    margin-top: 5svh;
 }
 
 .logosize
@@ -114,10 +185,11 @@ h2
 }
 
 .left {
-	max-width: 80%;
-	display: flex;
+	max-width: 100%;
+    overflow-x: hidden;
+	/* display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: center; */
 }
 
 .right 
@@ -145,6 +217,7 @@ h2
 {
     width: 18%;
 }
+
 
 #btn-red-choices
 {
