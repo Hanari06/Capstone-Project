@@ -121,7 +121,7 @@ function startRecognition() {
 
     if (speechResult.includes(currentWord)) {
       result.innerHTML = "";
-      let newPrompt = confirm("Ipatuloy?");
+      let newPrompt = confirm("Tama! Ipatuloy?");
       setTimeout(() => {
         if (newPrompt == true) {
           startRecognition();
