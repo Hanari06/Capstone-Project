@@ -137,11 +137,11 @@ h2
 	justify-content: space-around;
 }
 
-.clouds
+/* .clouds
 {
     width: 700px;
     height: 250px;
-}
+} */
 
 .cloud-img
 {
@@ -156,6 +156,7 @@ h2
     left: 0;
     top: 0;
     z-index: -5;
+    width: 590px;
 }
 
 .card-result
@@ -165,7 +166,7 @@ h2
 
 .card-body
 {
-    margin-top: 5svh;
+    margin-top: 1svh;
 }
 
 .logosize
